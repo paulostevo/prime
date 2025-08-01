@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './favoritos.css';
+import {toast} from 'react-toastify';
 
 function Favoritos() {
 
@@ -16,6 +17,7 @@ function Favoritos() {
         const novaLista = filmesSalvos.filter((filme) => filme.id !== id);
         setFilmes(novaLista);
         localStorage.setItem("@primeflix", JSON.stringify(novaLista));
+        toast.success("Filme excluído com sucesso!");
     }
 
 
