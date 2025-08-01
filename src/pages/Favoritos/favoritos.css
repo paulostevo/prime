@@ -1,0 +1,99 @@
+.meus-filmes {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 24px;
+  background: #181818;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.2);
+  color: #fff;
+}
+
+.meus-filmes h1 {
+  font-size: 2.2rem;
+  margin-bottom: 24px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.meus-filmes ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  justify-content: center;
+}
+
+.meus-filmes li {
+  background: #222;
+  border-radius: 10px;
+  box-shadow: 0 1px 8px rgba(0,0,0,0.15);
+  padding: 18px 16px;
+  min-width: 220px;
+  max-width: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.2s;
+}
+
+.meus-filmes li:hover {
+  transform: scale(1.04);
+  box-shadow: 0 4px 24px rgba(0,0,0,0.25);
+}
+
+.meus-filmes span {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 12px;
+  text-align: center;
+  color: #ccc;
+}
+
+.meus-filmes img {
+  width: 120px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+}
+
+.meus-filmes a {
+  display: inline-block;
+  margin-top: 8px;
+  margin-right: 8px;
+  padding: 8px 18px;
+  background: #21c421;
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  transition: background 0.2s;
+  border: none;
+  cursor: pointer;
+}
+
+.meus-filmes a:hover {
+  background: #178c17;
+}
+
+.btn-excluir {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 8px 18px;
+  background: #e50914;
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  transition: background 0.2s;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-excluir:hover {
+  background: #b0060f;
+}

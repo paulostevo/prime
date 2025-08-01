@@ -12,15 +12,28 @@ header{
   text-decoration: none;
   font-size: 30px;
   cursor: pointer;
-  color: #FFF;
+  color: #FFF; 
   font-weight: bold;
 }
 
-.favoritos{
+.favoritos {
   text-decoration: none;
   cursor: pointer;
-  background-color: #FFF;
-  padding: 5px 14px;
-  color: #000000;
-  border-radius: 4px;
+  background: linear-gradient(90deg, #2196f3 0%, #0d47a1 100%);
+  padding: 7px 20px;
+  color: #fff;
+  border-radius: 24px;
+  font-weight: 600;
+  font-size: 1.08rem;
+  box-shadow: 0 2px 8px rgba(33,150,243,0.18);
+  border: none;
+
+  transition: background 0.2s, box-shadow 0.2s, transform 0.2s;
+  letter-spacing: 0.5px;
+}
+
+.favoritos:hover {
+  background: linear-gradient(90deg, #0d47a1 0%, #2196f3 100%);
+  box-shadow: 0 4px 16px rgba(33,150,243,0.28);
+  transform: scale(1.06);
 }
